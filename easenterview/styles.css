@@ -1,0 +1,68 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    padding: 20px;
+    color: #fff;
+    font-size:1.6em
+}
+
+.content {
+    max-width: 45em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the items horizontally */
+    margin-top: 10px;
+    /* This value may need to be adjusted based on your specific layout */
+}
+
+.box {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+.logo{
+    margin-left:10em;
+    display:flex;
+    max-width:30em;
+    font-size:1.4em;
+}
+.slogan{
+    display: flex;
+    margin-top:0px;
+    margin-left:1.2em;
+    max-width: 39em;
+}
